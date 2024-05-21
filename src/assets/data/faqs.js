@@ -1,22 +1,22 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "¿Cómo funciona medicare?",
     content:
-      "Our platform offers a comprehensive healthcare solution, including telemedicine consultations, appointment scheduling, and digital medical records management.",
+      "Es muy simple. Si eres familiar o el responsable de un adulto mayor, te descargas la App, te registrás y ya podés realizar o publicar búsquedas del cuidador domiciliario que necesitas sin cargo. ",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "¿Qué datos son visibles en la aplicación?",
     content:
-      "In case of emergencies or if hospital care is required, we recommend visiting the nearest healthcare facility or contacting emergency services.",
+      "MediCare no permite visualizar ningún dato sensible o que ponga en riesgo la seguridad tanto de cuidadores como de las personas que reciben atención. Para mayor seguridad, todo el intercambio de información o datos registrados que involucren al paciente y al cuidador, se llevan a cabo dentro de la App. ",
   },
   {
-    question: "Can I visit your medical office?",
+    question: "¿Cuál es la edad mínima para registrarme en MediCare?",
     content:
-      "Our platform is designed for virtual consultations. For in-person visits, we recommend contacting healthcare facilities or specialists directly.",
+      "Pueden registrarse solamente las personas mayores de edad.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "¿Qué significa un perfil verificado?",
     content:
-      "While we offer telemedicine services, we recommend seeking urgent care at a healthcare facility for immediate medical attention.",
+      "Cuando te registres en la App por primera vez, debes incorporar a tu perfil una foto de tu DNI frente y dorso. Luego de completar paso, los responsables de MediCare verificarán que los datos de tu DNI coincidan con los datos que ingresaste. En caso de coincidir recibirás la verificación. En caso de que los datos no coincidan o no incorpores las fotos de tu DNI, la verificación quedará pendiente. Recuerda que no completar correctamente tu perfil puede perjudicar tu ranking.",
   },
 ];

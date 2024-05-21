@@ -30,15 +30,15 @@ const socialLinks = [
 const quickLinks01 = [
   {
     path: "/home",
-    display: "Home",
+    display: "Inicio",
   },
   {
     path: "/",
-    display: "About Us",
+    display: "Carta del Equipo",
   },
   {
     path: "/services",
-    display: "Services",
+    display: "Servicios",
   },
   {
     path: "/",
@@ -49,22 +49,22 @@ const quickLinks01 = [
 const quickLinks02 = [
   {
     path: "/find-a-doctor",
-    display: "Find a Doctor",
+    display: "Encuentra un Cuidador",
   },
   {
     path: "/",
-    display: "Book an Appointment",
+    display: "Reserva una cita",
   },
 ];
 
 const quickLinks03 = [
   {
     path: "/",
-    display: "Donate",
+    display: "Donar",
   },
   {
     path: "/contact",
-    display: "Contact Us",
+    display: "Contacto",
   },
 ];
 
@@ -95,7 +95,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-[20px] leading-[30px] font-[600] mb-6 text-headingColor">
-              Quick Links
+              Enlaces rápidos
             </h2>
             <ul>
               {quickLinks01.map((item, index) => (
@@ -113,7 +113,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-[20px] leading-[30px] font-[600] mb-6 text-headingColor">
-              I want to:
+              Principal
             </h2>
             <ul>
               {quickLinks02.map((item, index) => (
@@ -131,10 +131,10 @@ const Footer = () => {
 
           <div>
             <h2 className="text-[20px] leading-[30px] font-[600] mb-6 text-headingColor">
-              Support
+              Soporte
             </h2>
             <ul>
-              {quickLinks01.map((item, index) => (
+              {quickLinks03.map((item, index) => (
                 <li key={index} className="mb-4">
                   <Link
                     to={item.path}

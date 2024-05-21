@@ -17,20 +17,17 @@ const About = () => {
           </div>
           {/* ====about content==== */}
           <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
-            <h2 className="heading">Proud to be one of the nations best</h2>
-            <p className="text__para">
-              For 30 years in a row we have been recognized as one of the best
-              online service for public hospitals in the Nation
-            </p>
-            <p className="text__para mt-[30px]">
-              Our best is something we strive for each day, caring for our
-              patients-not looking back at what we accomplished but towards what
-              we can do tomorrow. Providing the best.
-            </p>
-            <Link to="/">
-              <button className="btn">Learn More</button>
-            </Link>
-          </div>
+    <h2 className="heading">Cuidado de los Adultos Mayores</h2>
+    <p className="text__para">
+        El cuidado de los adultos mayores es de vital importancia. Su experiencia y sabiduría son invaluables para nuestra sociedad y merecen la mejor atención y cuidado.
+    </p>
+    <p className="text__para mt-[30px]">
+        Nos esforzamos cada día para proporcionar servicios de alta calidad que satisfacen sus necesidades únicas, respetando su dignidad y promoviendo su bienestar.
+    </p>
+    <Link to="/">
+        <button className="btn">Aprende Más</button>
+    </Link>
+</div>
         </div>
       </div>
     </section>

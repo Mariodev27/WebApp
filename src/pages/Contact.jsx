@@ -2,49 +2,63 @@ const Contact = () => {
   return (
     <section>
       <div className="px-4 mx-auto max-w-screen-md">
-        <h2 className="heading text-center">Contact Us</h2>
+        <h2 className="heading text-center">Podemos ayudarte</h2>
         <p className="mb-8 lg:mb-16 font-light text-center text__para">
-          Got any issues? Want to send a feedback? Let us know.
+        Si tienes un familiar y tienes dudas, déjanos tus datos para poder asistirte.
         </p>
         <form action="#" className="space-y-8">
+
+
+        <div>
+            <label htmlFor="subject" className="form__label">
+            Nombre y apellidos
+            </label>
+            <input
+              type="text"
+              id="subject"
+              placeholder="ej: Juan Perez"
+              className="form__input mt-1"
+            />
+          </div>
+          
           <div>
             <label htmlFor="email" className="form__label">
-              Your Email
+              Tu correo electronico
             </label>
             <input
               type="email"
               id="email"
-              placeholder="example@gmail.com"
+              placeholder="ej: example@gmail.com"
               className="form__input mt-1"
             />
           </div>
 
           <div>
-            <label htmlFor="email" className="form__label">
-              Subject
+            <label htmlFor="phone" className="form__label">
+              Tu numero de telefono
             </label>
             <input
               type="text"
               id="subject"
-              placeholder="Let us know how we can help you."
+              placeholder="ej: +51 999 999 999"
               className="form__input mt-1"
             />
           </div>
 
           <div className="sm:col-span-2">
             <label htmlFor="message" className="form__label">
-              Your Message
+              Razon
             </label>
             <textarea
               rows={6}
               type="text"
               id="message"
-              placeholder="Leave your feedback"
+              placeholder="Permítenos saber en qué te podemos ayudar."
               className="form__input mt-1"
             />
           </div>
           <button type="submit" className="btn rounded sm:w-fit">
-            Submit
+            Enviar
           </button>
         </form>
       </div>

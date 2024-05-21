@@ -1,4 +1,5 @@
 import React from "react";
+import appImage from '../assets/images/App.png';
 import heroImg01 from "../assets/images/hero-img01.png";
 import heroImg02 from "../assets/images/hero-img02.png";
 import heroImg03 from "../assets/images/hero-img03.png";
@@ -18,6 +19,7 @@ import FaqItem from "../components/faq/FaqItem";
 import FaqList from "../components/faq/FaqList";
 import Testimonial from "../components/testimonial/Testimonial";
 
+
 const Home = () => {
   return (
     <>
@@ -30,17 +32,12 @@ const Home = () => {
               <div>
                 <div className="lg:w-[570px]">
                   <h1 className="text-[36px] leading-[46px] text-headingColor font-[700] md:text-[60px] md:leading-[70px]">
-                    We help patients live a healthy, longer life
+                    Busca y encuentra al cuidador que necesitás.
                   </h1>
                   <p className="text__para">
-                    Welcome to Medicare, your premier destination for
-                    hassle-free online appointment booking. From doctor's visits
-                    to specialist consultations, our platform offers a seamless
-                    experience, empowering you to schedule appointments with
-                    ease. Say goodbye to long wait times and hello to efficiency
-                    with Medicare.
+                  Bienvenido a Medicare, su principal destino para reservar citas en línea sin problemas. Busca a tu enfermero ideal en nuestra plataforma ofrece una experiencia perfecta, lo que le permite programar citas con facilidad. Di adiós a los largos tiempos de espera y saluda a la eficiencia con Medicare.
                   </p>
-                  <button className="btn">Book an Appointment</button>
+                  <button className="btn">Reserva una cita</button>
                 </div>
                 {/* ====counter==== */}
                 
@@ -61,12 +58,9 @@ const Home = () => {
           <div className="container">
             <div className="lg:w-[470px] mx-auto">
               <h2 className="heading text-center">
-                Providing the best medical services online
+                Proporcionar los mejores servicios de enfermeros en línea
               </h2>
-              <p className="text__para text-center">
-                World-class care for everyone. Our health system offers
-                unmatched, expert health care.
-              </p>
+              
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
@@ -77,11 +71,10 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
-                    Find a Doctor
+                    Encuentra un Cuidador
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                    World-class care for everyone. Our health system offers
-                    unmatched, expert health care. From the lab to the clinic.
+                  Medicare te facilita el acceso a cientos de cuidadores calificados con múltiples herramientas que te facilitan la búsqueda y gestión del día a día en el cuidado de tu ser querido.
                   </p>
                   <Link
                     to="/doctors"
@@ -99,11 +92,10 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
-                    Find a Location
+                    Encuentralos
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                    World-class care for everyone. Our health system offers
-                    unmatched, expert health care. From the lab to the clinic.
+                  Al cargar el perfil completo de tu familiar, Medicare te permite buscar detalladamente el cuidador ideal para tu necesidad.
                   </p>
                   <Link
                     to="/doctors"
@@ -121,11 +113,11 @@ const Home = () => {
 
                 <div className="mt-[30px]">
                   <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
-                    Book Appointment
+                  Reservar una cita
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                    World-class care for everyone. Our health system offers
-                    unmatched, expert health care. From the lab to the clinic.
+                  Los cuidadores calificados se postularán y podrás hacer una selección de acuerdo a tus preferencias sin mencionar datos familiares o de vivienda.
+
                   </p>
                   <Link
                     to="/doctors"
@@ -144,11 +136,8 @@ const Home = () => {
       <section>
         <div className="container">
           <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">Our Medical Services</h2>
-            <p className="text__para text-center">
-              World class care for everyone. Our health system offers unmatched,
-              expert health care.
-            </p>
+            <h2 className="heading text-center">¿De qué manera un cuidador calificado puede ayudar?</h2>
+            
           </div>
 
           <ServiceList />
@@ -169,16 +158,16 @@ const Home = () => {
               </p>
               <br />
               <img 
-                className="img-with-animation skip-lazy animated-in" 
-                data-delay="0" 
-                height="1000" 
-                width="512" 
-                data-animation="fade-in-from-left" 
-                src="https://www.cuidarlos.com/wp-content/uploads/2023/04/perfil-cuidador-iphone.png" 
-                alt="Perfil Cuidador Cuidarlos APP" 
-                srcSet="https://www.cuidarlos.com/wp-content/uploads/2023/04/perfil-cuidador-iphone.png 512w, https://www.cuidarlos.com/wp-content/uploads/2023/04/perfil-cuidador-iphone-154x300.png 154w" 
-                sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-              />
+    className="img-with-animation skip-lazy animated-in" 
+    data-delay="0" 
+    height="1000" 
+    width="512" 
+    data-animation="fade-in-from-left" 
+    src={appImage} 
+    alt="Perfil Cuidador Cuidarlos APP" 
+    srcSet={`${appImage} 512w, ${appImage} 154w`} 
+    sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+/>
             </div>
           </div>
         </section>
@@ -192,7 +181,7 @@ const Home = () => {
             </div>
             <div className="w-full md:w-1/2">
               <h2 className="heading">
-                Frequently asked questions by our beloved patients
+              Preguntas frecuentes sobre la App
               </h2>
               <FaqList />
             </div>

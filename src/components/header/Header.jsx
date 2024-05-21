@@ -7,19 +7,19 @@ import { authContext } from "../../context/authContext.jsx";
 const navLinks = [
   {
     path: "/home",
-    display: "Home",
+    display: "Inicio",
   },
   {
     path: "/doctors",
-    display: "Find a Doctor",
+    display: "Encuentra un enfermero",
   },
   {
     path: "/services",
-    display: "Services",
+    display: "Servicios",
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contacto",
   },
 ];
 
