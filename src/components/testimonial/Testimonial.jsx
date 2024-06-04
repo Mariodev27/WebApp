@@ -35,7 +35,7 @@ const Testimonial = () => {
               <img src={PatientAvatar} alt="" />
               <div>
                 <h4 className="text-[18px] leading-[30px] font-regular text-headingColor">
-                  Bharat Bhatt
+                  Luis
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -47,7 +47,7 @@ const Testimonial = () => {
               </div>
             </div>
             <p className="text-[16px] leading-7 mt-4 text-textColor font-[400]">
-              Nice doctor and services
+              Muy satisfecho con el servicio
             </p>
           </div>
         </SwiperSlide>
@@ -58,7 +58,7 @@ const Testimonial = () => {
               <img src={PatientAvatar} alt="" />
               <div>
                 <h4 className="text-[18px] leading-[30px] font-regular text-headingColor">
-                  Hidayat
+                  Fernando
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -70,7 +70,7 @@ const Testimonial = () => {
               </div>
             </div>
             <p className="text-[16px] leading-7 mt-4 text-textColor font-[400]">
-              Good doctors and platform
+              Buenos cuidadores y aplicacion
             </p>
           </div>
         </SwiperSlide>
@@ -81,7 +81,7 @@ const Testimonial = () => {
               <img src={PatientAvatar} alt="" />
               <div>
                 <h4 className="text-[18px] leading-[30px] font-regular text-headingColor">
-                  Gunjan
+                  Jorge
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellowColor w-[18px] h-5" />
@@ -93,7 +93,7 @@ const Testimonial = () => {
               </div>
             </div>
             <p className="text-[16px] leading-7 mt-4 text-textColor font-[400]">
-              Excellent services
+              Facil y rapido!
             </p>
           </div>
         </SwiperSlide>

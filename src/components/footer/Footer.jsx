@@ -40,10 +40,7 @@ const quickLinks01 = [
     path: "/services",
     display: "Servicios",
   },
-  {
-    path: "/",
-    display: "Blog",
-  },
+  
 ];
 
 const quickLinks02 = [

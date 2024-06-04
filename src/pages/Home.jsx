@@ -1,5 +1,9 @@
 import React from "react";
 import appImage from '../assets/images/App.png';
+import appImage2 from '../assets/images/App2.png';
+import appImage3 from '../assets/images/App3.png';
+import appImage4 from '../assets/images/App4.png';
+import appImage5 from '../assets/images/App5.png';
 import heroImg01 from "../assets/images/hero-img01.png";
 import heroImg02 from "../assets/images/hero-img02.png";
 import heroImg03 from "../assets/images/hero-img03.png";
@@ -149,28 +153,79 @@ const Home = () => {
       {/* ====our doctors==== */}
       {/* our doctors */}
       <section>
-          <div className="container">
-            <div className='xl:w-[470px] mx-auto'>
-              <h2 className='heading text-center'>El App</h2>
-              <br />
-              <p className='text_para text-center'>
-              Fácil. Encontrá al Cuidador que necesitás en tres simples pasos.
-              </p>
-              <br />
-              <img 
-    className="img-with-animation skip-lazy animated-in" 
-    data-delay="0" 
-    height="1000" 
-    width="512" 
-    data-animation="fade-in-from-left" 
-    src={appImage} 
-    alt="Perfil Cuidador Cuidarlos APP" 
-    srcSet={`${appImage} 512w, ${appImage} 154w`} 
-    sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
-/>
-            </div>
-          </div>
-        </section>
+  <div className="container">
+    <div className='xl:w-[470px] mx-auto'>
+      <h2 className='heading text-center'>El App</h2>
+      <br />
+      <p className='text_para text-center'>
+        Fácil. Encontrá al Cuidador que necesitás en tres simples pasos.
+      </p>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+  <button className="btn">Descarga el App</button>
+</div>
+      <br />
+      <div className="flex justify-around">
+        <img 
+          className="img-with-animation skip-lazy animated-in" 
+          data-delay="0" 
+          height="1000" 
+          width="512" 
+          data-animation="fade-in-from-left" 
+          src={appImage} 
+          alt="App Image 1" 
+          srcSet={`${appImage} 512w, ${appImage} 154w`} 
+          sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+        />
+        <img 
+          className="img-with-animation skip-lazy animated-in" 
+          data-delay="0" 
+          height="1000" 
+          width="512" 
+          data-animation="fade-in-from-left" 
+          src={appImage2} 
+          alt="App Image 2" 
+          srcSet={`${appImage2} 512w, ${appImage2} 154w`} 
+          sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+        />
+        <img 
+          className="img-with-animation skip-lazy animated-in" 
+          data-delay="0" 
+          height="1000" 
+          width="512" 
+          data-animation="fade-in-from-left" 
+          src={appImage3} 
+          alt="App Image 3" 
+          srcSet={`${appImage3} 512w, ${appImage3} 154w`} 
+          sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+        />
+      </div>
+      <div className="flex justify-around">
+        <img 
+          className="img-with-animation skip-lazy animated-in" 
+          data-delay="0" 
+          height="1000" 
+          width="512" 
+          data-animation="fade-in-from-left" 
+          src={appImage4} 
+          alt="App Image 4" 
+          srcSet={`${appImage4} 512w, ${appImage4} 154w`} 
+          sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+        />
+        <img 
+          className="img-with-animation skip-lazy animated-in" 
+          data-delay="0" 
+          height="1000" 
+          width="512" 
+          data-animation="fade-in-from-left" 
+          src={appImage5} 
+          alt="App Image 5" 
+          srcSet={`${appImage5} 512w, ${appImage5} 154w`} 
+          sizes="(min-width: 1450px) 75vw, (min-width: 1000px) 85vw, 100vw"
+        />
+      </div>
+    </div>
+  </div>
+</section>
       {/* ====doctors end==== */}
       {/* ====faq==== */}
       <section>

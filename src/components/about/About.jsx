@@ -24,9 +24,9 @@ const About = () => {
     <p className="text__para mt-[30px]">
         Nos esforzamos cada día para proporcionar servicios de alta calidad que satisfacen sus necesidades únicas, respetando su dignidad y promoviendo su bienestar.
     </p>
-    <Link to="/">
-        <button className="btn">Aprende Más</button>
-    </Link>
+    <a href="https://www.udep.edu.pe/hoy/2021/08/adultos-mayores-son-fuente-de-sabiduria-consejo-y-amor/" target="_blank" rel="noopener noreferrer">
+    <button className="btn">Aprende Más</button>
+</a>
 </div>
         </div>
       </div>
