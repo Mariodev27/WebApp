@@ -36,10 +36,10 @@ const Home = () => {
               <div>
                 <div className="lg:w-[570px]">
                   <h1 className="text-[36px] leading-[46px] text-headingColor font-[700] md:text-[60px] md:leading-[70px]">
-                    Busca y encuentra al cuidador que necesitás.
+                  Bienvenido a CuidaTec
                   </h1>
                   <p className="text__para">
-                  Bienvenido a Medicare, su principal destino para reservar citas en línea sin problemas. Busca a tu enfermero ideal en nuestra plataforma ofrece una experiencia perfecta, lo que le permite programar citas con facilidad. Di adiós a los largos tiempos de espera y saluda a la eficiencia con Medicare.
+                  CuidaTec conecta a las familias con enfermeros de confianza en su área, brindando un acceso rápido y conveniente a una red de cuidadores dedicados. Nuestra plataforma ofrece una experiencia perfecta, permitiéndote programar citas con facilidad y garantizando siempre un enfermero disponible. Di adiós a las preocupaciones y saluda a la tranquilidad con CuidaTec.
                   </p>
                   <button className="btn">Reserva una cita</button>
                 </div>
@@ -78,7 +78,7 @@ const Home = () => {
                     Encuentra un Cuidador
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  Medicare te facilita el acceso a cientos de cuidadores calificados con múltiples herramientas que te facilitan la búsqueda y gestión del día a día en el cuidado de tu ser querido.
+                  CuidaTec te facilita el acceso a cuidadores calificados con múltiples herramientas que simplifican la búsqueda y gestión diaria del cuidado de tu ser querido.
                   </p>
                   <Link
                     to="/doctors"
@@ -99,7 +99,7 @@ const Home = () => {
                     Encuentralos
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  Al cargar el perfil completo de tu familiar, Medicare te permite buscar detalladamente el cuidador ideal para tu necesidad.
+                  Con CuidaTec, al cargar el perfil completo de tu familiar, puedes buscar detalladamente al cuidador ideal para tus necesidades.
                   </p>
                   <Link
                     to="/doctors"
@@ -120,8 +120,7 @@ const Home = () => {
                   Reservar una cita
                   </h2>
                   <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  Los cuidadores calificados se postularán y podrás hacer una selección de acuerdo a tus preferencias sin mencionar datos familiares o de vivienda.
-
+                  Los cuidadores calificados se postulan y tú puedes seleccionar según tus necesidades.
                   </p>
                   <Link
                     to="/doctors"

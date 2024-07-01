@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../assets/images/about4.png";
+import aboutImg from "../../assets/images/nurse.png";
 import aboutCardImg from "../../assets/images/about-card.png";
 import { Link } from "react-router-dom";
 
@@ -17,12 +17,12 @@ const About = () => {
           </div>
           {/* ====about content==== */}
           <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
-    <h2 className="heading">Cuidado de los Adultos Mayores</h2>
+    <h2 className="heading">Garantía de CuidaTec: Siempre a tu Lado</h2>
     <p className="text__para">
-        El cuidado de los adultos mayores es de vital importancia. Su experiencia y sabiduría son invaluables para nuestra sociedad y merecen la mejor atención y cuidado.
+    En CuidaTec, nos comprometemos a proporcionar un servicio confiable y continuo. Mantenemos un pool de cuidadores verificados para asegurar que siempre haya apoyo disponible. En caso de cualquier imprevisto, activamos rápidamente un reemplazo calificado para garantizar que tu adulto mayor reciba cuidado ininterrumpido.
     </p>
     <p className="text__para mt-[30px]">
-        Nos esforzamos cada día para proporcionar servicios de alta calidad que satisfacen sus necesidades únicas, respetando su dignidad y promoviendo su bienestar.
+    Tu tranquilidad es nuestra prioridad, asegurando que nunca te falte el apoyo necesario. Descubre por qué CuidaTec es la elección de confianza en el mercado.
     </p>
     <a href="https://www.udep.edu.pe/hoy/2021/08/adultos-mayores-son-fuente-de-sabiduria-consejo-y-amor/" target="_blank" rel="noopener noreferrer">
     <button className="btn">Aprende Más</button>

@@ -11,7 +11,7 @@ const navLinks = [
   },
   {
     path: "/doctors",
-    display: "Encuentra un enfermero",
+    display: "Testimonios",
   },
   {
     path: "/services",
@@ -54,7 +54,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/*====logo====*/}
           <div className="mt-5">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" className="logo" />
           </div>
 
           {/*====menu====*/}

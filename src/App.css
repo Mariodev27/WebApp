@@ -35,6 +35,8 @@ body {
   z-index: 99999;
   background: white;
   box-shadow: 3px 3px -8px 3px #ddd;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 768px) {
@@ -65,5 +67,9 @@ body {
 
   .show__menu {
     display: block;
+  }
+  .sticky__header .logo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

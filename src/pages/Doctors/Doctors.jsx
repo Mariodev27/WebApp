@@ -30,27 +30,6 @@ const Doctors = () => {
   } = useFetchData(`${BASE_URL}/doctors?query=${debounceQuery}`);
   return (
     <>
-      <section className="bg-[#fff9ea]">
-        <div className="container text-center">
-          <h2 className="heading">Encuentra un Cuidador</h2>
-          <div className="max-w-[570px] mt-[30px] mx-auto bg-[#0066ff2c] rounded-md flex items-center justify-between">
-            <input
-              type="search"
-              className="py-4 pl-4 pr-2 bg-transparent w-full focus:outline-none cursor-text placeholder:text-textColor"
-              placeholder="Busca cuidadores por zonas...."
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-            />
-            <button
-              className="btn mt-0 rounded-[0px] rounded-r-md"
-              onClick={handleSearch}
-            >
-              Buscar
-            </button>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div className="container">
           {loading && <Loader />}
